@@ -1,0 +1,145 @@
+@charset "UTF-8";
+
+form {
+    width: 500px;
+    margin: auto;
+    padding-top: 20px;
+}
+
+input, textarea {
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 12pt;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+input:hover, textarea:hover {
+    background-color: rgba(221, 221, 221, 0.8);
+}
+
+input#cNasc {
+    color: #000000;
+    font-weight: normal;
+    font-size: 10pt;
+    font-family: sans-serif;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+::placeholder {
+    color: #888888;
+    font-weight: normal;
+    font-size: 10pt;
+    font-family: sans-serif;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+legend {
+    color: #888888;
+    font-weight: normal;
+    font-size: 10pt;
+    font-family: sans-serif;
+}
+
+fieldset {
+    border: 1px solid #cecece;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+fieldset#genero {
+    width: 250px;
+    border: 1px solid #cecece;
+    margin: 40px;
+}
+
+fieldset#usuario {
+    background: url("../_imagens/icone-contato.png") no-repeat 95% 95%;
+}
+
+fieldset#endereco {
+    background: url("../_imagens/icone-endereco.png") no-repeat 95% 95%;
+}
+
+fieldset#mensagem {
+    background: url("../_imagens/icone-mensagem.png") no-repeat 95% 95%;
+}
+
+fieldset#pedido {
+    background: url("../_imagens/icone-pagamento.png") no-repeat 95% 95%;
+    padding: 0px;
+}
+
+label[for="cMsg"] {
+    display: block;
+    margin-bottom: 5px;
+}
+
+label#labPedido {
+    margin-left: 0px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 5px 5px 5px 0px;
+
+}
+
+textarea#cMsg {
+    width: 80%;
+    height: 100px;
+    padding: 10px;
+    margin: auto;
+    margin-left: 50px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+div#botoes {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+button#bEnviar {
+    display: block;
+    width: 100px;
+    height: 40px;
+    margin: 20px auto;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button#bEnviar:hover {
+    background-color: #45a049;
+}
+
+button#bEnviar:active {
+    background-color: #3e8e41;
+}
+
+button#bLimpar {
+    display: block;
+    width: 100px;
+    height: 40px;
+    margin: 20px auto;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button#bLimpar:hover {
+    background-color: #da190b;
+}
+
+button#bLimpar:active {
+    background-color: #b71c1c;
+}
