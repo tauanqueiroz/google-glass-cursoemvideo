@@ -21,7 +21,7 @@
             <h2>A revolução do Google está chegando</h2>
             </hgroup>
 
-            <img id="icone" src="_imagens/contato.png"/>
+            <img id="icone" src="_imagens/contato.png" draggable="false" oncontextmenu="return false;"/>
 
             <nav id="menu">
                 <h1>Menu Principal</h1>
@@ -29,7 +29,7 @@
                     <li onmouseenter="mudaFoto('_imagens/home.png')" onmouseleave="mudaFoto('_imagens/contato.png')"><a href="index.html">Home</a></li>
                     <li onmouseenter="mudaFoto('_imagens/especificacoes.png')" onmouseleave="mudaFoto('_imagens/contato.png')"><a href="specs.html">Especificações</a></li>
                     <li onmouseenter="mudaFoto('_imagens/fotos.png')" onmouseleave="mudaFoto('_imagens/contato.png')"><a href="fotos.html">Fotos</a></li>
-                    <li onmouseenter="mudaFoto('_imagens/multimidia.png')" onmouseleave="mudaFoto('_imagens/contato.png')"><a href="multimidia.html">Multimídia</a></li>
+                    <li onmouseenter="mudaFoto('_imagens/multimidia.png')" onmouseleave="mudaFoto('_imagens/contato.png')"><a href="multimidia.html" rel="prev">Multimídia</a></li>
                     <li onmouseenter="mudaFoto('_imagens/contato.png')" onmouseleave="mudaFoto('_imagens/contato.png')"><a href="fale-conosco.html">Fale conosco</a></li>
                 </ul>
             </nav>
@@ -144,7 +144,7 @@
 
         <footer id="rodape">
             <h5>Copyright &copy; 2013 - by Gustavo Guanabara </br>
-            <a href="https://facebook.com/cursosemvideo" target="_blank">Facebook</a> | <a href="https://x.com/cursosemvideo" target="_blank">Twitter</a></h5>
+            <a href="https://facebook.com/cursosemvideo" target="_blank" rel="external">Facebook</a> | <a href="https://x.com/cursosemvideo" target="_blank" rel="external">Twitter</a></h5>
         </footer>
     </div>
 </body>
