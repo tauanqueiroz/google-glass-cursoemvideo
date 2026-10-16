@@ -2,7 +2,17 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
+    <link rel="shortcut icon" href="_imagens/favicon.svg" type="image/x-icon">
     <title>Tudo sobre Google Glass</title>
+    <meta name="description" content="O Tudo sobre Google Glass é um site descritivo do projeto de óculos inteligente do Google.">
+    <meta property="og:title" content="Tudo sobre Google Glass">
+    <meta property="og:description" content="Um gadget eyewear para interação com realidade aumentada.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.tudosobregoogleglass.com/">
+    <meta property="og:image" content="_imagens/glass-oculos-preto-peq.png">
+    <link rel="canonical" href="https://www.tudosobregoogleglass.com/">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" type="text/css" href="_css/estilo.css">
     <link rel="preload" href="_imagens/home.png" as="image">
     <link rel="preload" href="_imagens/especificacoes.png" as="image">
@@ -15,18 +25,18 @@
 <body>
     <div id="interface">
         <header id="cabecalho">
-            <hgroup>
+            <hgroup id="titulo">
             <h1>Google Glass</h1>
             <h2>A revolução do Google está chegando</h2>
             </hgroup>
 
-            <img id="icone" src="_imagens/glass-oculos-preto-peq.png"/>
+            <img id="icone" src="_imagens/glass-oculos-preto-peq.png" draggable="false" oncontextmenu="return false;"/>
 
             <nav id="menu">
                 <h1>Menu Principal</h1>
                 <ul type="disc">
                     <li onmouseenter="mudaFoto('_imagens/home.png')" onmouseleave="mudaFoto('_imagens/glass-oculos-preto-peq.png')"><a href="index.html">Home</a></li>
-                    <li onmouseenter="mudaFoto('_imagens/especificacoes.png')" onmouseleave="mudaFoto('_imagens/glass-oculos-preto-peq.png')"><a href="specs.html">Especificações</a></li>
+                    <li onmouseenter="mudaFoto('_imagens/especificacoes.png')" onmouseleave="mudaFoto('_imagens/glass-oculos-preto-peq.png')"><a href="specs.html" rel="next">Especificações</a></li>
                     <li onmouseenter="mudaFoto('_imagens/fotos.png')" onmouseleave="mudaFoto('_imagens/glass-oculos-preto-peq.png')"><a href="fotos.html">Fotos</a></li>
                     <li onmouseenter="mudaFoto('_imagens/multimidia.png')" onmouseleave="mudaFoto('_imagens/glass-oculos-preto-peq.png')"><a href="multimidia.html">Multimídia</a></li>
                     <li onmouseenter="mudaFoto('_imagens/contato.png')" onmouseleave="mudaFoto('_imagens/glass-oculos-preto-peq.png')"><a href="fale-conosco.html">Fale conosco</a></li>
@@ -45,10 +55,10 @@
                 </header>
 
                 <h2>O que é?</h2>
-                <p>O <span class="atencao">Google Glass</span> é um acessório em forma de óculos que possibilita a interação dos usuários com diversos conteúdos em realidade aumentada. Também chamado de <a href="https://glass.google.com" target="_blank">Project Glass</a>, o eletrônico é capaz de tirar fotos a partir de comandos de voz, enviar mensagens instantâneas e realizar vídeo&shy;con&shy;fe&shy;rên&shy;cias. Seu lançamento está previsto para 2014, e seu preço deve ser de US$ 1,5 mil. Atualmente o <en>Google Glass</en> encontra-se em fase de testes e já possui um vídeo totalmente gravado com o dispositivo. Além disso, a companhia de buscas registrou novas patentes anti-<wbr/>furto e de desbloqueio de tela para o acessório.</p>
+                <p>O <span class="atencao">Google Glass</span> é um acessório em forma de óculos que possibilita a interação dos usuários com diversos conteúdos em realidade aumentada. Também chamado de <a href="https://glass.google.com" target="_blank" rel="external">Project Glass</a>, o eletrônico é capaz de tirar fotos a partir de comandos de voz, enviar mensagens instantâneas e realizar vídeoconferências. Seu lançamento está previsto para 2014, e seu preço deve ser de US$ 1,5 mil. Atualmente o <en>Google Glass</en> encontra-se em fase de testes e já possui um vídeo totalmente gravado com o dispositivo. Além disso, a companhia de buscas registrou novas patentes anti-<wbr/>furto e de desbloqueio de tela para o acessório.</p>
 
                 <figure class="foto-legenda">
-                    <img src="_imagens/glass-quadro-homem-mulher.jpg"/>
+                    <img src="_imagens/glass-quadro-homem-mulher.jpg" draggable="false" oncontextmenu="return false;"/>
                     <figcaption>
                         <h3>Google Glass</h3>
                             <p>Uma nova maneira de ver o mundo.</p>
@@ -97,7 +107,7 @@
         </aside>
         <footer id="rodape">
             <h5>Copyright &copy; 2013 - by Gustavo Guanabara </br>
-            <a href="https://facebook.com/cursosemvideo" target="_blank">Facebook</a> | <a href="https://x.com/cursosemvideo" target="_blank">Twitter</a></h5>
+            <a href="https://facebook.com/cursosemvideo" target="_blank" rel="external">Facebook</a> | <a href="https://x.com/cursosemvideo" target="_blank" rel="external">Twitter</a></h5>
         </footer>
     </div>
 </body>
